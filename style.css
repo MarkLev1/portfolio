@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+header {
+    background: url(./assets/img/bg.png) no-repeat center;
+    height: 700px;
+}
+
+.logo_svg {
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.nav_links{
+    display: flex;
+    margin: 40px 10px 0 0;
+ }
+ .nav_item{
+    margin: 0 20px 0 0;
+ }
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper_nav {
+        width: 100vw;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+.href {
+    color: white;
+    text-decoration: none;
+}
+
+.h1 {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120px;
+}
+
+.p {
+    color:white;
+    margin-top: 50px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+}
+
+.wrapper_main {
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    bottom: -100px;
+    display: flex;
+    flex-direction: column;
+    left: 70px;
+}
+
+.button {
+    background-color: #bdae82;
+    color: #000;
+    width: 220px;
+    height: 50px;
+    margin: 17px 0 0 0;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: bisque;
+    text-decoration: underline;
+}
+
+.active_link {
+    color:#bdae82;
+}
