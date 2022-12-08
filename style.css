@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 header {
     background: url(./assets/img/bg.png) no-repeat center;
@@ -44,7 +44,7 @@ li {
     text-decoration: none;
 }
 
-.h1 {
+.Alexa_Rise {
     color:white;
     font-family: 'Roboto', sans-serif;
     font-family: 'Merriweather';
@@ -54,7 +54,7 @@ font-size: 60px;
 line-height: 120px;
 }
 
-.p {
+.info {
     color:white;
     margin-top: 50px;
     font-family: 'Inter';
@@ -91,3 +91,122 @@ line-height: 40px;
 .active_link {
     color:#bdae82;
 }
+
+.skills {
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.skills_h2 {
+    color:#BDAE82;
+    font-size: 40px;
+    margin: 100px auto 0 auto;
+}
+
+.line {
+    width: 294px;
+    height: 2px;
+    background-color: #bdae82;
+    margin: 125px 0 0 330px;
+}
+
+.line2 {
+    width: 294px;
+    height: 2px;
+    background-color: #bdae82;
+    margin: 125px 330px 0 0;
+}
+
+
+.item5 {
+    width: 100px;
+    height: 100px;
+    margin: 0 140px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.item1 {
+    margin: 0 140px 0 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+}
+
+.wrapper_iten2 {
+    position: absolute;
+    bottom: -410px;
+    display: flex;
+    left: 5%;
+}
+
+.item2 {
+    margin: 0 140px 0 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+}
+
+.item3 {
+    margin: 0 140px 0 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+    width: 200px;
+    height: 100px;
+}
+
+.item4 {
+    margin: 0 140px 0 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+}
+
+.item6 {
+    width: 100px;
+    height: 100px;
+    margin: 0 140px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item6 {
+    width: 100px;
+    height: 100px;
+    margin: 0 140px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item7 {
+    width: 100px;
+    height: 100px;
+    margin: 0 140px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item8 {
+    width: 100px;
+    height: 100px;
+    margin: 0 140px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
