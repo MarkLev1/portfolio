@@ -5,9 +5,15 @@
     padding: 0;
 }
 
+body {
+    width: 1440px;
+    margin: auto;
+}
+
 header {
     background: url(./assets/img/bg.png) no-repeat center;
     height: 871px;
+    width: 1440px;
 }
 
 .logo_svg {
@@ -31,7 +37,7 @@ header {
 }
 
 .wrapper_nav {
-    width: 100vw;
+    width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -97,7 +103,7 @@ li {
 
 .skills {
     background-color: #000;
-    width: 100vw;
+    width: 1440px;
     height: 482px;
     display: flex;
     position: relative;
@@ -170,14 +176,12 @@ li {
 }
 
 .item4 {
-    margin: 0 140px 0 0;
     /* display: flex;
     justify-content: center;
     align-items: center; */
     color: white;
-    width: 240px;
     height: 200px;
-    margin: 0 200px 0 0;
+    
 }
 
 .item6 {
@@ -263,5 +267,116 @@ li {
     margin: 0 0 0 80px;
 }
 
+.portfolio {
+    width: 1440px;
+    height: 1500px;
+    background-color: #000;
+   
+}
+
+.portfolio_h2 {
+    color: #BDAE82;
+    font-size: 40px;
+    margin: 100px auto 0 auto;
+}
+
+.line_port {
+    width: 258px;
+    height: 2px;
+    background-color: #bdae82;
+    margin: 125px 0 0 330px;
+}
+
+.line2_por {
+    width: 258px;
+    height: 2px;
+    background-color: #bdae82;
+    margin: 125px 330px 0 0;
+}
+
+.winter_h2 {
+    color: #BDAE82;
+}
 
 
+.wrapper_portfolio_lines{
+    display: flex;
+    position: relative;
+}
+.sisoni {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0 0;
+}
+
+.winter {
+    background-color: #000;
+    border: 1px solid #BDAE82;
+    color: #BDAE82;
+    width: 200px;
+    height: 50px;
+    margin: 0 15px 0 0;
+}
+
+.spring {
+    background-color: #000;
+    border: 1px solid #BDAE82;
+    color: #BDAE82;
+    width: 200px;
+    height: 50px;
+    margin: 0 15px 0 0;
+}
+
+.summer {
+    background-color: #000;
+    border: 1px solid #BDAE82;
+    color: #BDAE82;
+    width: 200px;
+    height: 50px;
+    margin: 0 15px 0 0;
+}
+
+.autumn {
+    background-color: #000;
+    border: 1px solid #BDAE82;
+    color: #BDAE82;
+    width: 200px;
+    height: 50px;
+    margin: 0 15px 0 0;
+}
+
+.active_link2 {
+    background-color: #BDAE82;
+    color: #000;
+}
+
+.autumn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.spring:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.summer:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.winter:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.png1 {
+    width: 450px;
+    height: 560px;
+    position: absolute;
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+}
