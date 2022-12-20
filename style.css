@@ -271,7 +271,6 @@ li {
     width: 1440px;
     height: 1500px;
     background-color: #000;
-   
 }
 
 .portfolio_h2 {
@@ -306,7 +305,7 @@ li {
 .sisoni {
     display: flex;
     justify-content: center;
-    margin: 100px 0 0 0;
+    margin: 100px 0 100px 0;
 }
 
 .winter {
@@ -379,4 +378,54 @@ li {
 .img {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
+
+.png {
+    margin:2px;
+}
+
+
+.wrapper_video_lines {
+    display: flex;
+    position: relative;
+}
+
+.video_h2 {
+    color: #BDAE82;
+    font-size: 40px;
+    margin: 100px auto 0 auto;
+}
+
+.line_video {
+    width: 258px;
+    height: 2px;
+    background-color: #bdae82;
+    margin: 125px 0 0 330px;
+}
+
+.line2_video {
+    width: 258px;
+    height: 2px;
+    background-color: #bdae82;
+    margin: 125px 330px 0 0;
+}
+
+.video {
+    width: 1440px;
+    height: 945px;
+    background-color: #000;
+}
+
+.wrapper_video {
+    background: url(./assets/png/video-player.png) no-repeat center;
+    width: 1440px;
+    height: 800px;
+}
+
+.player {
+    margin: 350px 0 0 720px;
+}
+
+
+    
