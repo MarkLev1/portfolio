@@ -427,5 +427,120 @@ li {
     margin: 350px 0 0 720px;
 }
 
+.wrapper_price_lines {
+    display: flex;
+    position: relative;
+}
 
-    
+.price_h2 {
+    color: #BDAE82;
+    font-size: 40px;
+    margin: 100px auto 0 auto;
+}
+
+.line_price {
+    width: 258px;
+    height: 2px;
+    background-color: #bdae82;
+    margin: 125px 0 0 330px;
+}
+
+.line2_price {
+    width: 258px;
+    height: 2px;
+    background-color: #bdae82;
+    margin: 125px 330px 0 0;
+}
+
+.price {
+    width: 1440px;
+    height: 845px;
+    background-color: #000;
+}
+
+.d500 {
+    width: 450px;
+    height: 505px;
+    background-color: #000;
+    border: 1px solid #BDAE82;
+}
+
+.standart {
+    color: white;
+    text-align: center;
+    size: 28px;
+    margin: 55px 0 0 0;
+}
+
+.p_standart {
+    color: white;
+    text-align: center;
+    width: 138px;
+    height: 180px;
+    size: 18px;
+    margin: 20px 0 0 150px;
+    line-height: 36px;
+}
+
+.d500g {
+    color: #BDAE82;
+    text-align: center;
+    size: 24px;
+    margin-top: 20px;
+}
+
+.but_standart {
+    background-color: #BDAE82;
+    border: 1px solid #BDAE82;
+    color: #000;
+    width: 200px;
+    height: 50px;
+    margin: 50px 0 0 130px;
+}
+
+.d700 {
+    width: 450px;
+    height: 505px;
+    background-color: #000;
+    border: 1px solid #BDAE82;
+}
+
+.premium {
+    color: white;
+    text-align: center;
+    size: 28px;
+    margin: 55px 0 0 0;
+}
+
+.p_premium {
+    color: white;
+    text-align: center;
+    width: 138px;
+    height: 180px;
+    size: 18px;
+    margin: 20px 0 0 150px;
+    line-height: 36px;
+}
+
+.d700g {
+    color: #BDAE82;
+    text-align: center;
+    size: 24px;
+    margin-top: 20px;
+}
+
+.but_premium {
+    background-color: #BDAE82;
+    border: 1px solid #BDAE82;
+    color: #000;
+    width: 200px;
+    height: 50px;
+    margin: 50px 0 0 130px;
+}
+
+.block_price {
+    display: flex;
+}
+
+
+
