@@ -443,7 +443,11 @@ li {
 }
 
 .player {
+<<<<<<< HEAD
     margin: 380px 0 0 660px;
+=======
+    margin: 350px 0 0 650px;
+>>>>>>> d13f9cba09ed3823a7c8c386f92bd07f00106708
 }
 
 .wrapper_price_lines {
@@ -482,7 +486,11 @@ li {
     height: 505px;
     background-color: #000;
     border: 1px solid #BDAE82;
+<<<<<<< HEAD
     margin: 0 40px 0 1.5px;
+=======
+    margin: 0 40px 0 2px;
+>>>>>>> d13f9cba09ed3823a7c8c386f92bd07f00106708
 }
 
 .standart {
