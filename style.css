@@ -626,7 +626,7 @@ footer {
 
 .logo_foto2 {
   display: flex;
-  margin: 0 0 0 0;
+  margin: 0 0 0 20px;
   width: 182px;
   justify-content: space-between;
 }
@@ -666,6 +666,7 @@ li {
 
 .github {
   color: white;
+  text-decoration: none;
 }
 
 
